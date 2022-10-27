@@ -1,2 +1,1 @@
-*.sqlite
-*.pkl
+avg_basket_size_scaler.pkl
