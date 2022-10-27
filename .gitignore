@@ -6,3 +6,5 @@ src/features/frequency_scaler.pkl
 src/features/avg_basket_size_scaler.pkl
 src/features/recency_days_scaler.pkl
 src/features/total_quantity_scaler.pkl
+src/models/rf_model.pkl
+src/features/umap_reducer.pkl
