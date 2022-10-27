@@ -1,2 +1,8 @@
 *.pkl
 *sqlite
+src/features/qty_returns_scaler.pkl
+src/features/gross_revenue_scaler.pkl
+src/features/frequency_scaler.pkl
+src/features/avg_basket_size_scaler.pkl
+src/features/recency_days_scaler.pkl
+src/features/total_quantity_scaler.pkl
