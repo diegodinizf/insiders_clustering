@@ -69,11 +69,13 @@ This project was carried out following CRISP-DM (Cross-Industry Standard Process
 The Tree-Based Embedding showed better defined clusters. So it was evaluated inside UMAP and TSNE
 
 **UMAP**
-The UMAP embedding clusters showed clusters far from each other and the capacity of working with a lower number of them
+The UMAP embedding clusters showed clusters far from each other and the capacity of working with a lower number of them.
+
 ![image](https://user-images.githubusercontent.com/110054775/198726318-fb737f38-7ce7-4b54-bfa8-7d30cf9537a5.png)
 
 **T-SNE**
-Although the clusters in T-SNE embedding showed a better aglomeration and defined clusters, the tendency is to create a higher number of clusters and this can be a non-efficient result to the problem 
+Although the clusters in T-SNE embedding showed a better aglomeration and defined clusters, the tendency is to create a higher number of clusters and this can be a non-efficient result to the problem.
+
 ![image](https://user-images.githubusercontent.com/110054775/198726873-20b1f96b-9a9a-4f1b-9f2a-3727b74619e7.png)
 
 
