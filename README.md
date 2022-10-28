@@ -31,6 +31,31 @@ Read more about RFM in: https://clevertap.com/blog/rfm-analysis/
 ### 2.2 CRISP-DM
 This project was carried out following CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology. You can read more about it on: https://www.datascience-pm.com/crisp-dm-2/
 
-#### Step 1:
+#### Step 1: Data Description
+- Imported data from AWS S3
+- Checked data types and the shape
+- Checked NA values and replace them
+- Descriptive Statistical
+
+#### Step 2: Data Filtering
+- Data were filtered in unit price, stock code and quantity features
+
+### Step 3: Feature Engineering
+- Created features based on RFM
+- Other features were tested in order to increase the cluster model performance and create more cohesive groups
+
+#### Step 4: Exploratory Data Analysis
+- Univariate analysis (Pandas Profiling) in order to:
+  - Check customer's that represents inconsistents outliers
+  - Analyze variability of the features
+
+#### Step 5: Data Preparation
+- Rescale features
+
+### Step 6: Feature Selection
+- Select the features that promote greater variation in data
+
+### Step 7: Embedding Study
+- Check in which space the data are better clustered
 
 
