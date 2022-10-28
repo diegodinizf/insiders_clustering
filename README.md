@@ -27,3 +27,10 @@ As a result of the project, it is expected answer some questions:
 I created a solution based in RFM analysis. RFM stands for Recency, Frequency, and Monetary value and it works as a important indicator of the customer's behavior.
 Read more about RFM in: https://clevertap.com/blog/rfm-analysis/
 ![image](https://user-images.githubusercontent.com/110054775/198715485-31e162f5-9b03-40eb-9c88-11bc0770e61a.png)
+
+### 2.2 CRISP-DM
+This project was carried out following CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology. You can read more about it on: https://www.datascience-pm.com/crisp-dm-2/
+
+#### Step 1:
+
+
