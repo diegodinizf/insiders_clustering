@@ -52,10 +52,16 @@ This project was carried out following CRISP-DM (Cross-Industry Standard Process
 #### Step 5: Data Preparation
 - Rescale features
 
-### Step 6: Feature Selection
+#### Step 6: Feature Selection
 - Select the features that promote greater variation in data
 
-### Step 7: Embedding Study
+#### Step 7: Embedding Study
 - Check in which space the data are better clustered
 
+#### Step 8: Machine Learning Modeling and Hyperparameter Fine-Tuning
+- Test different clustering models, such as K-Means, GMM and Hierarchical Cluster inside the embedding that was defined in step 7
+- Test different k numbers in order to indentify how many clusters data can be divided
+- Compare the models performance
+- Silhouette analyses in order to check the cluster's quality
 
+## 3. Machine Learning Model Applied
