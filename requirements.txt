@@ -1,8 +1,11 @@
+aiobotocore==2.4.0
+boto3==1.21.32
 matplotlib==3.5.1
 matplotlib-inline==0.1.2
 numpy==1.21.5
 pandas==1.4.2
 papermill==2.4.0
+pickle==
 plotly==5.6.0
 python==3.9.12
 regex==2022.3.15
@@ -10,6 +13,7 @@ s3fs==2022.10.0
 s3transfer==0.6.0
 scikit-learn==1.0.2
 sqlalchemy==1.4.32
+seaborn==0.11.2
 streamlit==1.11.1
 scipy==1.7.3
-streamlit-folium==0.6.14
+umap-learn==0.5.3
