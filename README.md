@@ -84,11 +84,13 @@ The modesl applied were K-Means, GMM, Hierarchical Cluster and DBSCAN.
 
 Different **k** numbers were tested for these models
 
-|Model|MAE|MAPE|RMSE|
-|-----------------------------|------------------|-------------|------------------|
-|Random Forest Regressor	    |796.7 +/- 146.77	 |0.11 +/- 0.02|1202.19 +/- 269.83|
-|XGBoost Regressor	          |1062.85 +/- 174.01|0.15 +/- 0.02|1503.14 +/- 273.61|
-|Linear Regression	          |1933.91 +/- 79.66 |0.28 +/- 0.02|2739.27 +/- 154.61|
-|Regularized Linear Regression|1980.51 +/- 96.91 |0.28 +/- 0.01|2849.35 +/- 200.81| 
+![image](https://user-images.githubusercontent.com/110054775/198904644-3efe3c3c-9ff9-4217-8d41-4c2a66660a29.png)
+
+The highest silhouette scores were seen when cluster numbers were 8 or 9. However, the **k** number were defined as 7, since a low number can be more manageable for the business. In addition, K-Means was chosen to be clustering model despite presenting a very similar perfomance compared to HC model.
+
+![image](https://user-images.githubusercontent.com/110054775/198904955-d384ae1f-277b-468e-a5be-b5702ca7ba55.png)
+
+The image above, shows us the presence of well defined clusters, far from each other, what represents a silhouette score of 0,63 in
+
 
 
