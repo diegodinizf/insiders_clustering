@@ -78,5 +78,15 @@ Although the clusters in T-SNE embedding showed a better aglomeration and define
 
 ![image](https://user-images.githubusercontent.com/110054775/198726873-20b1f96b-9a9a-4f1b-9f2a-3727b74619e7.png)
 
+## 4. Model Performance
+
+The modesl applied were K-Means, GMM, Hierarchical Cluster and DBSCAN. 
+
+Different **k** numbers were tested for these models
+
+|Model  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |  11  |  12  |  13  |
+|K-Means|
+|GMM    |
+|Hc     |
 
 
