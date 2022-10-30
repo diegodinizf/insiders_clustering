@@ -85,6 +85,7 @@ The modesl applied were K-Means, GMM, Hierarchical Cluster and DBSCAN.
 Different **k** numbers were tested for these models
 
 |Model  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |  11  |  12  |  13  |
+_____________________________________________________________________________________
 |K-Means|
 |GMM    |
 |Hc     |
