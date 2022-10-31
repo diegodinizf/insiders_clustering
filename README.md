@@ -64,7 +64,7 @@ This project was carried out following CRISP-DM (Cross-Industry Standard Process
 - Compare the models performance
 - Silhouette analyses in order to check the cluster's quality
 
-#### Model Deploy
+#### Step 9: Model Deploy
 - Transfer data and machine learn model to AWS (S3, EC2 and RDS)
 - Create RDS database and create dashboard on Metabase
 
@@ -95,6 +95,12 @@ The highest silhouette scores were seen when cluster numbers were 8 or 9. Howeve
 ![image](https://user-images.githubusercontent.com/110054775/198904955-d384ae1f-277b-468e-a5be-b5702ca7ba55.png)
 
 The image above, shows us the presence of well defined clusters, far from each other, what represents a silhouette score of 0,63.
+
+## 5. Model Deploy
+
+The model was deployed through the jupyter notebook in EC2 instance running Ubuntu. Data was imported from a S3 bucket and the output is save on a PostgreSQL database in AWS RDS
+
+![image](https://user-images.githubusercontent.com/110054775/198916207-79174a05-b527-4af0-ade3-cbab15243b69.png)
 
 
 
