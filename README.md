@@ -3,14 +3,6 @@
 
 ## 1. Business Problem
 The company Track Market is a multibrand company that sell its products through an e-commerce. The company's rapid growth demands that the marketing and sales teams spend their resources according to the customer's profile, so they ask us to define an insiders program with the most valuable and loyal customers. 
-As a result of the project, it is expected answer some questions:
-
-1. Who are the people eligible to participate in the Insiders program?
-2. How many customers will be part of the group?
-3. What are the main characteristics of these customers?
-4. What percentage of revenue contribution comes from Insiders?
-5. What are the conditions for a person to be eligible for Insiders?
-6. What are the conditions for a person to be removed from Insiders?
 
 ## 2. Solution Planning
 
