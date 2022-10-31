@@ -95,4 +95,16 @@ The model was deployed through the jupyter notebook in EC2 instance running Ubun
 ![image](https://user-images.githubusercontent.com/110054775/198916207-79174a05-b527-4af0-ade3-cbab15243b69.png)
 
 
+## 6. Conclusion and Cluster's Profile
 
+This project used as a base for the features, the Recency, Frequency and Gross Revenues of each customer
+
+![image](https://user-images.githubusercontent.com/110054775/198917830-99e00583-42d1-4f57-bba0-1419a3daf845.png)
+
+Since Gross Revenue was the target variable for the embedding creating, the Insiders are define as the group of people which spends more and have a low recency.
+
+**Clusters Profile**
+- **0**: Insiders
+  - Group of people with the highest expenses, this group don't have a high purchase frequency. It is suggested to create action to bring those people to the store more often: promotions, discounts based on the products purchased.
+
+- 
