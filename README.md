@@ -104,7 +104,15 @@ This project used as a base for the features, the Recency, Frequency and Gross R
 Since Gross Revenue was the target variable for the embedding creating, the Insiders are define as the group of people which spends more and have a low recency.
 
 **Clusters Profile**
-- **0**: Insiders
-  - Group of people with the highest expenses, this group don't have a high purchase frequency. It is suggested to create action to bring those people to the store more often: promotions, discounts based on the products purchased.
+- **0: Insiders**
+  - Group of people with the highest expenses, this group don't have a high purchase frequency. It is suggested to create action to make those people to purchase more products in the same purchase: promotions based on products quantity, discounts based on the type of products purchased.
 
-- 
+- **4: Silver Customers**
+  - Group with a relevant number of integrants, high frequency (> 0.6) and less than 2 months since last shopping. This group has a low Gross Revenue, so it is suggested to create heavy promotions based on their type of shopping.
+
+- **5: Edge Customers**
+  - Group of people which do not spend much money, although they has high frequency of shopping. They look like customers which lost interest in the products, so it is suggested to create marketing campaign focusing on new products launches and researcher in order to reach these customers interests
+
+## 7. Next Steps
+- To create a cronjob together at a papermill code, in order to automate the jupyter notebook
+- Create and experiment new features in order to get better clusters
