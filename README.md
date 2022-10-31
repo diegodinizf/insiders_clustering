@@ -40,7 +40,7 @@ This project was carried out following CRISP-DM (Cross-Industry Standard Process
 #### Step 2: Data Filtering
 - Data were filtered in unit price, stock code and quantity features
 
-### Step 3: Feature Engineering
+#### Step 3: Feature Engineering
 - Created features based on RFM
 - Other features were tested in order to increase the cluster model performance and create more cohesive groups
 
@@ -63,6 +63,10 @@ This project was carried out following CRISP-DM (Cross-Industry Standard Process
 - Test different k numbers in order to indentify how many clusters data can be divided
 - Compare the models performance
 - Silhouette analyses in order to check the cluster's quality
+
+#### Model Deploy
+- Transfer data and machine learn model to AWS (S3, EC2 and RDS)
+- Create RDS database and create dashboard on Metabase
 
 ## 3. Embedding Analysis
 
@@ -90,7 +94,7 @@ The highest silhouette scores were seen when cluster numbers were 8 or 9. Howeve
 
 ![image](https://user-images.githubusercontent.com/110054775/198904955-d384ae1f-277b-468e-a5be-b5702ca7ba55.png)
 
-The image above, shows us the presence of well defined clusters, far from each other, what represents a silhouette score of 0,63 in
+The image above, shows us the presence of well defined clusters, far from each other, what represents a silhouette score of 0,63.
 
 
 
