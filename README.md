@@ -12,7 +12,7 @@ The company Track Market is a multibrand company that sell its products through 
 
 **Output**
 - The indication of people who will be part of the Insiders Program
-- Report contaning the solutions for the business questions
+- Report contaning analyses of the main features of the cluster and data
 
 ### 2.1 Analysis Strategy
 
