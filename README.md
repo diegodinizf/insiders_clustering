@@ -90,7 +90,7 @@ The image above, shows us the presence of well defined clusters, far from each o
 
 ## 5. Model Deploy
 
-The model was deployed through the jupyter notebook in EC2 instance running Ubuntu. Data was imported from a S3 bucket and the output is save on a PostgreSQL database in AWS RDS
+The model was deployed through the jupyter notebook in EC2 instance running Ubuntu. Data was imported from a S3 bucket and the output is save on a PostgreSQL database in AWS RDS in order to be visualized with the help of Metabase
 
 ![image](https://user-images.githubusercontent.com/110054775/198916207-79174a05-b527-4af0-ade3-cbab15243b69.png)
 
